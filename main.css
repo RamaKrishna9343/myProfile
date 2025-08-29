@@ -1,0 +1,347 @@
+footer{
+    color: aliceblue;
+    text-align: center;
+    padding: 20px 0 30px 0;
+    font-size: 40px;
+}
+
+header{
+    color: aliceblue;
+    text-align: center;
+    padding: 90px 0 45px 0;
+    font-size: 40px;
+}
+
+/* html */
+html{
+    scroll-behavior: smooth;
+}
+
+
+/* body */
+body{
+    background-image: url(images/50158.png);
+    
+
+}
+
+
+/* navigation-bar */
+.nav-bar{
+    backdrop-filter: blur(30px);
+    box-shadow: 0px 0px 30px rgba(227, 228, 237, 0.37);
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    margin-bottom: 40px;
+    position: fixed;
+    top: 3px;
+    width: 100%;                /* Full width */
+    z-index: 1000; 
+}
+
+.nav-bar ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.nav-bar li a{
+    display: block;
+    color: aliceblue;
+    justify-content: center;
+    padding: 20px 30px;
+    text-decoration: none;
+}
+
+.nav-bar li a:hover, a:focus{
+    color: white;
+    background-color: rgba(0, 255, 255, 0.6);
+    box-shadow: 0 4px 15px rgba(0, 255, 255, 0.5);
+    text-decoration: underline;
+    transform: scale(1.05); /* Slight zoom effect */
+    cursor: pointer;
+}
+
+
+/* Home */
+.home{
+    backdrop-filter: blur(30px);
+    box-shadow: 0px 0px 30px rgba(227, 228, 237, 0.37);
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    display: flex;
+    margin-bottom: 60px;
+    height: 700px;
+    width: 1500px;
+}
+
+/* .home .container-1 , .container-2{
+    color: aliceblue;
+    display: block;
+    width: 750px;
+    padding: 60px 50px;
+    height: 600px;
+    margin: 30px;
+} */
+.home .container-1 {
+    color: aliceblue;
+    display: block;
+    width: 1000px;
+    padding: 60px 50px;
+    height: 600px;
+    margin: 30px;
+}
+
+.container-1 p{
+    text-align: justify;
+    font-size: 22px;
+    width: 1000px;
+    height: 590px;
+    overflow: hidden;
+}
+
+
+
+
+/* EDUCATION */
+.education {
+    backdrop-filter: blur(30px);
+    box-shadow: 0px 0px 30px rgba(227, 228, 237, 0.37);
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    display: flex;
+    overflow: hidden;
+    margin-bottom: 40px;
+    height: 700px;
+}
+
+.education .edu-container{
+    color: aliceblue;
+    display: block;
+    width: 500px;
+    padding: 50px;
+    height: 590px;
+    margin: 20px;
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    transition: width 2s, height 2s, transform 2s;
+}
+
+.education .edu-container:hover{
+    transform: scale(1.1);
+     color: white;
+    background-color: rgba(0, 255, 255, 0.6);
+}
+
+
+/* projects */
+.projects{
+    backdrop-filter: blur(30px);
+    box-shadow: 0px 0px 30px rgba(227, 228, 237, 0.37);
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    display: flex;
+    flex-wrap:wrap;
+    flex-direction:row;
+    overflow: hidden;
+    margin-bottom: 40px;
+}
+
+.projects .pro-container-1,.pro-container-2,.pro-container-3,.pro-container-4, .pro-container-5,.pro-container-6{
+    color: aliceblue;
+    display: block;
+    padding: 25px 100px;
+    margin: 20px;
+    height: 40vh;
+    border: 2px solid rgba(255, 255, 255, 0.1);
+}
+
+
+/* certifications */
+.Certifications{
+    backdrop-filter: blur(30px);
+    box-shadow: 0px 0px 30px rgba(227, 228, 237, 0.37);
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction:row;
+    overflow: hidden;
+    margin-bottom: 40px;
+}
+.cer-container{
+    /* color: aliceblue; */
+    color: aliceblue;
+    display: block;
+    padding: 25px 30px;
+    width:370px;
+    margin: 25px 25px;
+    height: 40vh;
+    border: 2px solid rgba(255, 255, 255, 0.1);
+
+}
+
+.cer-container img{
+    width: 350px;
+    height: 250px;
+    transition: width 2s, height 2s, transform 2s;
+
+}
+
+.cer-container img:hover{
+  transform: scale(1.4);
+}
+
+/* Contact */
+
+
+
+.contact{
+    backdrop-filter: blur(30px);
+    box-shadow: 0px 0px 30px rgba(227, 228, 237, 0.37);
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    margin-bottom: 50px;
+    justify-content: center;
+    padding: 25px 500px;
+}
+
+.contact form{
+    margin: 15px;
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    color: aliceblue;
+    text-align: center;
+    justify-content: center;
+    display: block;
+    padding: 20px 16px;
+    transition: width 2s, height 2s, transform 2s;
+}
+.contact h2{
+    color: aliceblue;
+    text-align: center;
+    display: block;
+}
+
+form label{
+    display: block;
+    padding: 4px;
+    margin: 2px;
+}
+
+form:hover{
+    border: 2px solid white;
+    transform: scale3d(1.12,1.06,1.11);
+}
+
+form input{
+    padding: 12px;
+    width: 300px;
+    border-radius: 14px;
+    margin: 2px;
+}
+
+.submit-btn button{
+    margin-top: 6px;
+    border-radius: 7px;
+    padding: 6px;
+}
+
+/* mobile */
+
+@media (max-width: 768px) {
+    header, footer {
+        font-size: 20px;
+        padding: 15px;
+    }
+    .nav-bar{
+        display: none;
+    }
+    /* .nav-bar ul {
+        flex-direction: column;
+        align-items: center;
+    }
+    .nav-bar li a {
+        padding: 10px;
+    } */
+
+    /* Home stacks vertically */
+    .home {
+        
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+    }
+    /* .home .container-1, 
+    .home .container-2 {
+        width: 30px;
+        height: auto;
+        margin: 10px 0;
+        padding: 20px;
+        text-align: center;
+    } */
+     .home .container-1{ 
+        width: auto;
+        height: auto;
+        margin: 10px 0;
+        padding: 20px;
+        text-align: center;
+    }
+    .home .container-1 p{
+        width:100%; 
+    }
+    /* .home dotlottie-player {
+        width: 100% !important;
+        height: auto !important;
+    } */
+
+    /* Education vertical */
+    .education {
+        flex-direction: column;
+        height: auto;
+    }
+    .education .edu-container {
+        width: 90%;
+        margin: 10px auto;
+        height: auto;
+    }
+
+    /* Projects vertical */
+    .projects {
+        flex-direction: column;
+        align-items: center;
+    }
+    .projects > div {
+        width: 90%;
+        margin: 10px 0;
+        height: auto;
+    }
+
+    /* Certifications vertical */
+    .Certifications {
+        flex-direction: column;
+        align-items: center;
+    }
+    .cer-container {
+        width: 90%;
+        margin: 10px 0;
+        height: auto;
+    }
+    .cer-container img {
+        width: 100%;
+        height: auto;
+    }
+
+    /* Contact form full width */
+    .contact {
+        padding: 20px;
+    }
+    .contact form {
+        width: 100%;
+        max-width: 400px;
+        margin: auto;
+    }
+    .contact form input {
+        width: 80%;
+    }
+    form:hover{
+    border: 2px solid white;
+    transform: scale3d(1.01,1.06,1.11);
+}
+}
+
